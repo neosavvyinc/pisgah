@@ -1,4 +1,12 @@
 import React from 'react';
-const Button = ({label, onClick}) => <button onClick={onClick}>{label}</button>;
+import { Button } from 'semantic-ui-react'
 
-export default Button;
+const PButton               = ({label, onClick}) => <Button onClick={onClick}>{label}</Button>;
+const PPrimaryButton        = ({label, onClick}) => <Button onClick={onClick} primary>{label}</Button>;
+const PSecondaryButton      = ({label, onClick}) => <Button onClick={onClick} secondary>{label}</Button>;
+
+export {
+    PButton,
+    PPrimaryButton,
+    PSecondaryButton
+};
