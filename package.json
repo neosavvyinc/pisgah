@@ -1,0 +1,28 @@
+{
+  "name": "pisgah",
+  "version": "1.0.0",
+  "description": "pure functional presentational building blocks for react",
+  "author": "Adam Parrish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosavvy/pisgah/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosavvy/pisgah.git"
+  },
+  "homepage": "https://github.com/neosavvy/pisgah#readme",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.16",
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16"
+  }
+}
