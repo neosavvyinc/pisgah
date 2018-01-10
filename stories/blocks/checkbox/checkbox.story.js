@@ -9,63 +9,55 @@ import { action } from '@storybook/addon-actions';
 import _ from 'lodash';
 
 import {
-    PDropdown,PSelect, PMultiSelect
-} from '../../../src/blocks/dropdown/dropdown';
+    PCheckbox,
+    PSlideToggle,
+    PToggle
+} from '../../../src/blocks/checkbox/checkbox';
 
-const testOptions = [
-    {text: 'One', value: 1},
-    {text: 'Two', value: 2},
-    {text: 'Three', value: 3}
-]
-
-
-storiesOf('Dropdowns', module)
+storiesOf('Checkbox', module)
     .addDecorator(centered)
-    .add('Default Dropdown',
+    .add('Checkbox',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Default Selectable Dropdown
+            Pisgah Default Checkbox Component
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            [Based On](https://react.semantic-ui.com/modules/checkbox#checkbox-example-checkbox)
             
             `
         })(
-            () =>  <PDropdown options={testOptions}/>
+            () => <PCheckbox/>
         )
     )
-    .add('Select',
+    .add('Toggle',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Select Dropdown
+            Pisgah Default Toggle Component
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            [Based On](https://react.semantic-ui.com/modules/checkbox#checkbox-example-toggle)
             
             `
         })(
-            () =>  <PSelect options={testOptions}/>
+            () => <PToggle/>
         )
     )
-    .add('Multi Select',
+    .add('Slide Toggle',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Multi Select Dropdown
+            Pisgah Slide Toggle Component
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            [Based On](https://react.semantic-ui.com/modules/checkbox#checkbox-example-slider)
             
             `
         })(
-            () =>  <PMultiSelect options={testOptions}/>
+            () => <PSlideToggle/>
         )
-    )
-
-;
-    
+    );;

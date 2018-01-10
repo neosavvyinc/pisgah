@@ -9,63 +9,54 @@ import { action } from '@storybook/addon-actions';
 import _ from 'lodash';
 
 import {
-    PDropdown,PSelect, PMultiSelect
-} from '../../../src/blocks/dropdown/dropdown';
+    PEditable, PTextArea, PText
+} from '../../../src/blocks/input/string';
 
-const testOptions = [
-    {text: 'One', value: 1},
-    {text: 'Two', value: 2},
-    {text: 'Three', value: 3}
-]
-
-
-storiesOf('Dropdowns', module)
+storiesOf('String Input', module)
     .addDecorator(centered)
-    .add('Default Dropdown',
+    .add('Editable',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Default Selectable Dropdown
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            
+            [Based On](https://react.semantic-ui.com/elements/input#input-example-input)
             
             `
         })(
-            () =>  <PDropdown options={testOptions}/>
+            () => <PEditable label="Text: " placeholder="Placeholder"/>
         )
     )
-    .add('Select',
+    .add('Text',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Select Dropdown
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            
+            [Based On](https://react.semantic-ui.com/addons/text-area)
             
             `
         })(
-            () =>  <PSelect options={testOptions}/>
+            () => <PText placeholder="Enter your text here"/>
         )
     )
-    .add('Multi Select',
+    .add('Text Area',
         withInfo({
             header: false,
             inline: true,
             source: true,
             text: `
-            Pisgah Multi Select Dropdown
             
-            [Based On](https://react.semantic-ui.com/modules/dropdown)
+            
+            [Based On](https://react.semantic-ui.com/addons/text-area)
             
             `
         })(
-            () =>  <PMultiSelect options={testOptions}/>
+            () => <PTextArea placeholder="Enter Your Text Here"/>
         )
     )
-
 ;
-    
