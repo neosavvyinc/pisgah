@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../semantic/dist/semantic.min.css';
+
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';

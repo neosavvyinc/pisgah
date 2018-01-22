@@ -1,0 +1,9 @@
+/*******************************
+             Grid
+*******************************/
+
+.ui.grid {
+  font-family: @pageFont;
+  max-width: @widescreenMonitorBreakpoint;
+}
+

@@ -1,0 +1,127 @@
+/*******************************
+         Site Settings
+*******************************/
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+@fontName          : 'Source Sans Pro';
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontName    : @fontName;
+@googleFontSizes   : '400,600';
+
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+@emSize            : 14px;
+@fontSize          : 13px;
+
+/*--------------
+      Page
+---------------*/
+
+@pageBackground      : #F9F9F9;
+@lineHeight          : 1.33;
+@textColor           : @black;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerLineHeight : 1.33em;
+@headerFontWeight : 600;
+
+@h1               : 2.25rem;
+@h2               : 2rem;
+@h3               : 1.75rem;
+@h4               : 1.5rem;
+@h5               : 1.25rem;
+
+
+/*-------------------
+        Paths
+--------------------*/
+
+//@imagePath : '../../themes/material/assets/images';
+@fontPath  : '../../themes/kc/assets/fonts';
+
+/*--------------
+   Paragraphs
+---------------*/
+
+@paragraphLineHeight: 1.7em;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@black            : #273142;
+@blue             : #1e9fcf;
+@white            : #FFFFFF;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @blue;
+@secondaryColor      : @grey;
+
+@lightPrimaryColor   : @lightBlue;
+@lightSecondaryColor : @lightGrey;
+
+/*-------------------
+      Paragraph
+--------------------*/
+
+@paragraphMargin     : 0em 0em 1.53em;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : #009FDA;
+@linkUnderline       : none;
+@linkHoverColor      : lighten(@linkColor, 5);
+@linkHoverUnderline  : @linkUnderline;
+
+/*-------------------
+  Highlighted Text
+--------------------*/
+
+@highlightBackground : #009FDA;
+@highlightColor      : @white;
+
+/*-------------------
+       Accents
+--------------------*/
+
+/* 4px @ default em */
+@relativeBorderRadius: @relative4px;
+@absoluteBorderRadius: 4px;
+
+
+
+/*-------------------
+     Breakpoints
+--------------------*/
+
+@mobileBreakpoint            : 320px;
+@tabletBreakpoint            : 768px;
+@computerBreakpoint          : 992px;
+@largeMonitorBreakpoint      : 1200px;
+@widescreenMonitorBreakpoint : 1440px;
+
+
+/*******************************
+            Button
+*******************************/
+@buttonBorderColor: #dfe3e9;
