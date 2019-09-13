@@ -1,0 +1,7 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.dropdown {
+  font-family: @pageFont;
+}

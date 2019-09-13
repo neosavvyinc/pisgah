@@ -1,0 +1,26 @@
+
+.ui.primary.button {
+  border: 1px solid @buttonBorderColor;
+}
+
+.ui.primary.button:hover {
+  box-shadow: none;
+  border: 1px solid @buttonBorderColor;
+}
+
+
+.ui.secondary.button {
+  border: 1px solid @secondaryBorderColor;
+}
+
+.ui.secondary.button:hover {
+  box-shadow: none;
+  background-color: @downBackgroundColor;
+  border: 1px solid @secondaryBorderColor;
+  color: @white;
+}
+
+.ui.secondary.button:active {
+  background-color: @white;
+  color: @darkTextColor;
+}

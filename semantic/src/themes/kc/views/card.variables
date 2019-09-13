@@ -1,0 +1,22 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+@width: 100%;
+@background: white;
+@border: 1px solid #e6eaee;
+@contentPadding: 13px 10px;
+
+@rowSpacing: 1em;
+@groupCardMargin: 0em 1.3em @rowSpacing;
+
+
+@headerFontSize: @relativeSmall;
+
+/* Metadata */
+@metaFontSize: @relativeSmall;
+@metaColor: @lightTextColor;

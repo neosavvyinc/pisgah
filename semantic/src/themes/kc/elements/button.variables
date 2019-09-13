@@ -1,0 +1,52 @@
+/*******************************
+            Button
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@verticalPadding   : @relativeMini;
+@horizontalPadding : @relativeSmall;
+@textColor         : @white;
+@fontWeight        : @basicFontWeight;
+
+@backgroundColor      : @blue;
+@backgroundImage      : none;
+
+@solidBorderColor   : @lightGrey;
+@borderColor        : rgba(223, 227, 233, 0.15);
+
+@boxShadow: none;
+
+@transition:
+  opacity 0.1s @defaultEasing,
+  background-color 0.1s @defaultEasing,
+  color 0.1s @defaultEasing,
+  box-shadow 0.1s @defaultEasing,
+  background 0.1s @defaultEasing
+;
+
+/*-------------------
+        State
+--------------------*/
+
+@hoverBackgroundColor: @white;
+@hoverBoxShadow:
+  @borderBoxShadow,
+  0px 2px 3px 0px rgba(0, 0, 0, 0.2) !important
+;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Primary */
+@primaryColor       : @blue;
+@primaryBoxShadow   : none;
+
+/* Secondary */
+@secondaryColor           : @white;
+@secondaryTextColor       : @darkTextColor;
+@secondaryBoxShadow       : none;
+@secondaryBorderColor     : @lightGrey;

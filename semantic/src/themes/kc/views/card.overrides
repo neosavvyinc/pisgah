@@ -1,0 +1,37 @@
+/*******************************
+           Overrides
+*******************************/
+.ui.grid.card-grid {
+  margin: 0 @horizontalSpacing / 2;
+}
+
+.ui.cards > .card {
+  margin: 0 0 10px;
+}
+
+.ui.cards > .card .meta,
+.ui.card .meta {
+  font-size: @metaFontSize;
+  color: @metaColor;
+  margin: .5em 0;
+}
+
+.ui.cards > .card .description,
+.ui.card .description {
+  font-size: @metaFontSize;
+  margin: .5em 0;
+}
+
+.ui.cards > .card .meta span,
+.ui.card .meta span,
+.ui.cards > .card .description span,
+.ui.card .description span {
+  color: @lightTextColor;
+}
+
+.ui.cards > .card .meta span:first-of-type,
+.ui.card .meta span:first-of-type,
+.ui.cards > .card .description span:first-of-type,
+.ui.card .description span:first-of-type {
+  color: @descriptionColor;
+}

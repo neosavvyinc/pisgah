@@ -1,0 +1,53 @@
+/*******************************
+             Menu
+*******************************/
+
+/*-------------------
+      Collection
+--------------------*/
+
+/* Menu */
+
+/* Menu Item */
+@itemVerticalPadding: @relativeMini;
+
+/* Divider */
+@dividerBackground: @internalBorderColor;
+
+
+/* Sub Menu */
+
+/* Text Item */
+
+
+
+/*--------------
+     States
+---------------*/
+
+/* Hovered Item */
+@hoverItemBackground: @blue;
+@hoverItemTextColor: @white;
+
+/* Pressed Item */
+
+
+
+/* Active Item */
+@activeItemBackground: @blue;
+@activeHoverItemColor: @white;
+@activeItemTextColor: @white;
+
+/* Active Hovered Item */
+@activeHoverItemBackground: @blue;
+
+/* Selected Dropdown */
+
+/* Active Dropdown */
+
+/* Active Sub Menu */
+
+
+/*--------------
+     Types
+---------------*/
